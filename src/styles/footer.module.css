@@ -1,0 +1,31 @@
+.mainGrid{
+    display: grid;
+    margin: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: #002952;
+    height: 300px;
+}
+
+.item1 {    
+    margin: auto;
+    grid-column: 1 ;
+    grid-row: 1;
+    width: 80%;
+    height: 100%;
+    
+  }
+  
+  .item2 {    
+    margin: auto;
+  grid-column: 2;
+  grid-row: 1;
+  width: 80%;
+  height: 100%;
+  }
+.map{    
+    width: 100%; 
+    height: 80%;
+}
+
